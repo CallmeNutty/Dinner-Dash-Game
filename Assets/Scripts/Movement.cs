@@ -36,5 +36,17 @@ public class Movement : MonoBehaviour {
             transform.Translate(new Vector3(0, 1 * speed, 0));
             transform.rotation = Quaternion.Euler(0, 0, 180);
         }
+
+        //Shift Run system
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed *= 2;
+        }
+
+        //Reverse speed is shift is released
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed /= 2;
+        }
     }
 }
