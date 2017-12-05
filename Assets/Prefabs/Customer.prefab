@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speechBubble: {fileID: 223000010232375594}
-  blip: {fileID: 0}
+  blip: {fileID: 8300000, guid: b25b47270b1f20c40a2769845688bdc7, type: 3}
 --- !u!114 &114000012922548438
 MonoBehaviour:
   m_ObjectHideFlags: 1
