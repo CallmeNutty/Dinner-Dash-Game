@@ -6,6 +6,8 @@ public class CustomerDetection : MonoBehaviour
 
     [SerializeField]
     private Canvas speechBubble;
+    [SerializeField]
+    private AudioClip blip;
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
@@ -26,6 +28,9 @@ public class CustomerDetection : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-	
+        if (Input.GetKeyDown(KeyCode.Space) && speechBubble.gameObject.activeInHierarchy)
+        {
+            AudioSource.PlayClipAtPoint(blip, new Vector3(0, 0, 0));
+        }
 	}
 }

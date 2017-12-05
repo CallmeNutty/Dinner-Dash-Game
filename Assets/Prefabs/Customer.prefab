@@ -45,7 +45,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1000012417105844
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012417105844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1573598, y: 1.3207953, z: 0}
+  m_LocalPosition: {x: -2.986973, y: -1.4591951, z: 0}
   m_LocalScale: {x: 0.9368538, y: 0.9368538, z: 0.9368538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -92,7 +92,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 0.8
 --- !u!61 &61000011661863638
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speechBubble: {fileID: 223000010232375594}
+  blip: {fileID: 0}
 --- !u!114 &114000012922548438
 MonoBehaviour:
   m_ObjectHideFlags: 1
